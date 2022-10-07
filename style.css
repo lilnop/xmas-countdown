@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: montserrat,sans-serif;    
+    color: #fff;
+    background: url("marina-khrapova-nE4CsEL9Z_s-unsplash.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.521);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+section{    
+    text-align: center;
+    width: 80%;    
+    margin: auto;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+}
+.date-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    /* margin: auto; */
+}
+.date-info p{    
+    margin-left: 50px;
+    padding: 10px;
+} 
+.day,.hours,.mins,.secs{
+    font-weight: 800;
+    font-size: 60px;
+    color: #f82525;
+    /* width: 280px; */
+    /* background: blue; */
+    margin: auto;
+    /* text-align: center; */
+}
+.indicator{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media (max-width:600px) {
+    h1{
+        font-size: 40px;
+    }
+    .date-info p{    
+        margin: 0;
+    } 
+    .day,.hours,.mins,.secs{
+        font-size: 50px;
+    }
+    .indicator{
+        font-size: 40px;
+    }
+}
