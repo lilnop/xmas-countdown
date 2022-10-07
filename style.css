@@ -41,7 +41,7 @@ h1{
     margin-left: 50px;
     padding: 10px;
 } 
-.day,.hours,.mins,.secs{
+.day,.hours,.mins,.secs,.months,.years{
     font-weight: 800;
     font-size: 60px;
     color: #f82525;
@@ -62,7 +62,7 @@ h1{
     .date-info p{    
         margin: 0;
     } 
-    .day,.hours,.mins,.secs{
+    .day,.hours,.mins,.secs,.months,.years{
         font-size: 50px;
     }
     .indicator{
